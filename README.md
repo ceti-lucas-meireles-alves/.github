@@ -7,85 +7,75 @@
 
 ## Finalidade
 
-Esta organização é um ambiente escolar para observar, orientar e registrar a evolução dos projetos dos alunos. O objetivo não é apenas armazenar código: é tornar visíveis o problema investigado, as decisões, as tentativas, os testes, as revisões, os aprendizados e a entrega final.
+Esta organização é um ambiente escolar para observar, orientar e registrar a evolução dos projetos dos alunos. O objetivo é tornar visíveis o problema investigado, as decisões, as tentativas, os testes, as revisões, os aprendizados e a entrega final.
 
-O modelo combina desenvolvimento de sistemas, pensamento computacional, metodologias ativas, colaboração, comunicação técnica, cidadania digital e preparação para o mundo do trabalho, em alinhamento com a ementa do curso e com o Currículo de Computação do Estado do Piauí.
+O modelo combina aprendizagem baseada em projetos, pensamento computacional, colaboração, comunicação técnica, cidadania digital e preparação para o mundo do trabalho. A literatura recente recomenda projetos autênticos, decomposição incremental, checkpoints, feedback formativo, reflexão e avaliação por competências.[^1][^2][^3][^4]
 
 ## Estrutura recomendada
 
 ```text
 Organização: ceti-lucas-meireles-alves
 ├── .github
-│   ├── README.md              # Manual desta organização
-│   └── profile/README.md      # Página pública da organização
+│   ├── README.md              # Manual da organização
+│   └── profile/README.md      # Página pública
 ├── projeto-aluno-1
 ├── projeto-aluno-2
 ├── projeto-aluno-3
 └── projeto-integrador-turma-2026
 ```
 
-Cada projeto deve ter um repositório próprio e um README que identifique problema, objetivo, participantes autorizados, tecnologias, etapas, evidências, testes, limitações e próximos passos.
+Cada projeto deve ter repositório próprio, README, documentação de requisitos, evidências de evolução, testes e registro de autoria. O aluno deve conseguir explicar o que fez, por que fez e como validou.
 
 ## Modelo de rastreabilidade
 
 | Evidência | Recurso GitHub | O que observar |
 | --- | --- | --- |
-| Problema e requisitos | Issue | Clareza do contexto, usuários e critérios de aceitação |
-| Planejamento | Project, milestone e labels | Organização, prioridades, prazos e decomposição |
-| Desenvolvimento | Branches e commits | Evolução incremental e qualidade das mensagens |
-| Colaboração | Pull Request | Explicação da solução, revisão e resposta ao feedback |
-| Qualidade | Testes, evidências e checks | Funcionamento, segurança, acessibilidade e limitações |
-| Aprendizagem | Issue de reflexão ou documentação | O que foi descoberto e como a decisão foi tomada |
-| Entrega | Release e README | Versão, instruções, autoria e demonstração |
+| Problema e requisitos | Issue | Contexto, usuários e critérios de aceitação |
+| Planejamento | Project, milestone e labels | Prioridades, prazos e decomposição |
+| Desenvolvimento | Branches e commits | Evolução incremental e decisões |
+| Colaboração | Pull Request | Revisão, feedback e autoria |
+| Qualidade | Testes e checks | Funcionamento, segurança e acessibilidade |
+| Aprendizagem | Documentação e reflexão | Conceitos aprendidos e limitações |
+| Entrega | Release e README | Versão, execução e demonstração |
 
-O acompanhamento deve valorizar o processo e não apenas a quantidade de commits. Commits podem ser pequenos ou agrupados; a avaliação deve considerar o conjunto de evidências e a participação efetiva.
+Essa estrutura traduz para o GitHub a recomendação de tornar o progresso visível por marcos, tarefas, feedback e produtos observáveis.[^2][^3][^5]
 
-## Ciclo de trabalho do aluno
+## Ciclo de trabalho
 
-1. **Investigar:** descrever o problema e seu contexto.
-2. **Planejar:** levantar requisitos, riscos, usuários e critérios de aceitação.
+1. **Investigar:** descrever problema, contexto e público.
+2. **Planejar:** levantar requisitos, riscos e critérios de aceitação.
 3. **Modelar:** representar dados, fluxos, arquitetura e interface.
-4. **Construir:** implementar em incrementos curtos.
+4. **Construir:** implementar em incrementos pequenos.
 5. **Testar:** verificar comportamento, segurança, acessibilidade e usabilidade.
-6. **Revisar:** abrir Pull Request, receber orientação e corrigir.
+6. **Revisar:** abrir Pull Request e responder ao feedback.
 7. **Comunicar:** documentar decisões e apresentar a solução.
-8. **Refletir:** registrar aprendizados, limitações e próximos passos.
+8. **Refletir:** registrar aprendizados e próximos passos.
 
-## Componentes curriculares contemplados
+## Competências curriculares
 
-Os projetos podem integrar conteúdos de:
+Os projetos podem articular lógica, algoritmos, bancos de dados, redes, desenvolvimento web e mobile, métodos ágeis, UX, testes, manutenção, segurança, IA, ciência de dados, IoT, ética e empreendedorismo. A seleção dialoga com a Ementa do Curso Técnico em Desenvolvimento de Sistemas e com o Currículo de Computação do Estado do Piauí.
 
-- fundamentos de TI, arquitetura e redes;
-- lógica de programação e algoritmos;
-- fundamentos e projeto de bancos de dados;
-- métodos ágeis, UML e gestão de projetos;
-- desenvolvimento web e para dispositivos móveis;
-- UI/UX e interação humano-computador;
-- manutenção e suporte de sistemas;
-- testes de sistemas e segurança de dados;
-- inteligência artificial e Internet das Coisas;
-- orientação profissional, ética e empreendedorismo;
-- estágio supervisionado e projeto integrador.
+O Currículo de Computação enfatiza compreender limites da computação, escolher técnicas adequadas, criar e compartilhar soluções de forma ética, analisar segurança e privacidade, e desenvolver projetos colaborativos com responsabilidade social.[^6]
 
 ## Critérios de observação
-
-Em cada projeto, observar:
 
 - compreensão do problema e dos usuários;
 - aplicação de algoritmos e técnicas adequadas;
 - modelagem e organização dos dados;
-- uso coerente de ferramentas e versionamento;
-- colaboração, comunicação e responsabilidade;
+- uso coerente de versionamento;
+- colaboração e comunicação;
 - testes, tratamento de erros e manutenção;
 - segurança, privacidade e acessibilidade;
-- documentação, apresentação e reflexão crítica;
-- criatividade, impacto social e viabilidade da solução.
+- documentação e reflexão crítica;
+- criatividade, impacto social e viabilidade.
 
-## Uso de inteligência artificial
+Para evitar avaliar apenas volume de código, a avaliação deve combinar produto, processo, explicação oral ou escrita, evidências de revisão e reflexão do estudante.[^3][^4][^5]
 
-Agentes e ferramentas de IA podem apoiar pesquisa, brainstorming, explicação, geração de testes, revisão e documentação. A pessoa responsável pelo projeto deve compreender, validar e conseguir explicar todo resultado incorporado.
+## Uso responsável de inteligência artificial
 
-Toda contribuição relevante de IA deve ser registrada na documentação ou no Pull Request com finalidade, ferramenta utilizada, partes revisadas manualmente e testes realizados. Nunca compartilhar com agentes de IA senhas, tokens, documentos, dados pessoais de alunos ou informações sigilosas da escola.
+IA pode apoiar pesquisa, brainstorming, explicação, testes, documentação e revisão. O estudante continua responsável por compreender, validar e explicar o resultado. Registre no projeto a ferramenta, a finalidade, o que foi revisado e os testes executados.
+
+Essa regra segue uma abordagem centrada no ser humano, protegendo agência, equidade, privacidade e responsabilidade pedagógica.[^7][^8][^9] Nunca compartilhar com agentes de IA senhas, tokens, documentos, dados pessoais ou informações sigilosas da escola.
 
 ## Estrutura mínima de um projeto
 
@@ -104,102 +94,44 @@ projeto-do-aluno/
 
 ## Privacidade e portfólio
 
-Projetos públicos devem conter somente informações autorizadas. Não publicar RG, CPF, telefone, endereço, credenciais, chaves de API, dados de menores ou informações internas da escola.
+Projetos públicos devem conter apenas informações autorizadas. Não publicar documentos pessoais, telefones, endereços, credenciais, chaves de API, dados de menores ou informações internas da escola.
 
-Quando houver autorização, o aluno poderá vincular o repositório ao perfil pessoal e demonstrar sua participação por meio de commits, Issues, Pull Requests, documentação e releases. A autoria deve ser descrita com honestidade, incluindo trabalho individual e colaborativo.
+Quando houver autorização, o aluno poderá vincular o repositório ao perfil pessoal e demonstrar sua participação por commits, Issues, Pull Requests, documentação e releases. A autoria deve distinguir trabalho individual, colaboração e contribuição assistida por IA.
 
-## Referências curriculares e bibliográficas
+## Referências acadêmicas e científicas atualizadas
 
-### Documentos orientadores
+As referências abaixo substituem, para fins deste modelo, a bibliografia mais antiga anteriormente listada. Todas possuem texto integral consultável na web ou publicação em acesso aberto. Acesso em: 23 set. 2026.
 
-- PIAUÍ. **Currículo de Computação do Estado do Piauí**. SEDUC-PI. Documento orientador para pensamento computacional, cidadania digital, resolução de problemas, projetos colaborativos, inteligência artificial e integração curricular.
-- PIAUÍ. **Currículo 2024: Ementa das Unidades Curriculares — Curso Técnico em Desenvolvimento de Sistemas — 1ª, 2ª e 3ª séries, integral**. Documento fornecido para orientação desta organização.
-- BRASIL. Ministério da Educação. **Base Nacional Comum Curricular**. Brasília: MEC, 2017.
-- BRASIL. Ministério da Educação. **Referencial de Computação na Educação Básica**. Brasília: MEC, 2021.
-- BRASIL. **Resolução CNE/CEB nº 1, de 4 de outubro de 2022**. Normas sobre Computação na Educação Básica.
-- BRASIL. **Lei nº 14.533, de 11 de janeiro de 2023**. Política Nacional de Educação Digital.
-- BRASIL. **Lei nº 9.394, de 20 de dezembro de 1996**. Lei de Diretrizes e Bases da Educação Nacional.
+[^1]: DÍAZ-LAUZURICA, Belkis; MORENO-SALINAS, David. **Gamified project-based learning in vocational education and training computer science courses**. *Computers*, v. 15, n. 2, art. 82, 2026. DOI: [10.3390/computers15020082](https://doi.org/10.3390/computers15020082). Texto integral em acesso aberto. Estudo diretamente relacionado à educação profissional em computação.
 
-### Sistemas de informação e tecnologia
+[^2]: AHMAD, Izzah Sakinah et al. **Development of an implementation framework for computational thinking and programming activities**. *Discover Education*, v. 5, art. 724, 2026. DOI: [10.1007/s44217-026-02030-7](https://doi.org/10.1007/s44217-026-02030-7). Texto integral em acesso aberto. Fundamenta a implementação progressiva de pensamento computacional e programação.
 
-- LAUDON, K. C.; LAUDON, J. P. **Sistemas de Informações Gerenciais**. 9. ed. Pearson Education, 2011.
-- POTTER, R. E.; TURBAN, E.; RAINER JR., R. K. **Introdução a Sistemas de Informação**. Campus, 2007.
-- STAIR, R. M.; REYNOLDS, G. W. **Princípios de sistemas de informação: uma abordagem gerencial**. LTC, 2002.
-- MELO, I. S. **Administração de sistemas de informação**. Pioneira, 2006.
-- ROSINI, A. M.; PALMISANO, A. **Administração de sistemas de informação e gestão do conhecimento**. Pioneira, 2003.
+[^3]: KATONA, József; KATONANE GYONYORU, Klara Ida. **Enhancing programming education through AI-driven tools and innovative pedagogical models: a systematic study on student engagement, retention, and self-regulation**. *Journal of Computers in Education*, 2026. DOI: [10.1007/s40692-026-00391-4](https://doi.org/10.1007/s40692-026-00391-4). Texto integral em acesso aberto. Apoia checkpoints, decomposição de tarefas, colaboração e reflexão.
 
-### Algoritmos e programação
+[^4]: YERSULTANOVA, Aitkul et al. **Enhancing inclusive computer science education through project-based learning**. *International Journal of Information and Education Technology*, v. 16, n. 3, p. 668–675, 2026. DOI: [10.18178/ijiet.2026.16.3.2539](https://doi.org/10.18178/ijiet.2026.16.3.2539). [PDF integral](https://www.ijiet.org/vol16/IJIET-V16N3-2539.pdf). Fundamenta inclusão, aprendizagem baseada em projetos e acessibilidade.
 
-- BENEDUZZI, H. M.; METZ, J. A. **Lógica e linguagem de programação: introdução ao desenvolvimento de software**. Livro Técnico, 2010.
-- MANZANO, J. A. N. G.; OLIVEIRA, J. F. **Algoritmos: lógica para desenvolvimento de programação de computadores**. Érica, 2011.
-- PUGA, S.; RISSETTI, G. **Lógica de programação e estruturas de dados, com aplicações em Java**. Pearson, 2011.
-- FORBELLONE, A. L. V.; EBERSPACHER, H. F. **Lógica de programação: a construção de algoritmos e estruturas de dados**. Pearson Prentice Hall, 2005.
-- MEDINA, M.; FERTIG, C. **Algoritmos e programação: teoria e prática**. Novatec, 2005.
+[^5]: PORTELA, Filipe. **Inverted grading in project-based learning: a learning path approach for sustainable performance evaluation**. In: *7th International Computer Programming Education Conference (ICPEC 2026)*. OASIcs, v. 145, p. 11:1–11:12, 2026. DOI: [10.4230/OASIcs.ICPEC.2026.11](https://doi.org/10.4230/OASIcs.ICPEC.2026.11). Texto integral em acesso aberto. Apoia avaliação processual, trilhas de aprendizagem e evidências de desempenho.
 
-### Bancos de dados
+[^6]: PIAUÍ. Secretaria de Estado da Educação. **Currículo de Computação do Estado do Piauí**. Teresina: SEDUC-PI, 2026. Documento curricular fornecido para esta organização, com orientações sobre pensamento computacional, projetos, cidadania digital, IA e integração curricular.
 
-- HEUSER, C. A. **Projeto de bancos de dados**. Sagra Luzzatto, 1999.
-- SILBERSCHATZ, A.; KORTH, H. F.; SUDARSHAN, S. **Sistemas de bancos de dados**. Makron Books, 1999.
-- DATE, C. J. **Introdução a sistemas de bancos de dados**. Campus, 1990.
-- MACHADO, F. N. R.; ABREU, M. **Projeto de banco de dados: uma visão prática**. Érica, 1995.
-- GONZAGA, J. L. **Dominando o PostgreSQL: incluindo curso completo da linguagem SQL**. Ciência Moderna, 2007.
+[^7]: UNESCO. **Guidance for generative AI in education and research**. Paris: UNESCO, 2024. ISBN 978-92-3-300221-0. [PDF integral](https://unesdoc.unesco.org/in/documentViewer.xhtml?ark=%2Fark%3A%2F48223%2Fpf0000389227%2FPDF%2F389227spa.pdf). Fundamenta proteção de dados, agência humana, inclusão e uso ético de IA.
 
-### Redes, arquitetura e infraestrutura
+[^8]: AHMAD, Jesan A.; FIERRO, Gabe; SMITH, C. Estelle. **Assessing student adoption of generative artificial intelligence across engineering education from 2023 to 2024**. arXiv, 2025. DOI: [10.48550/arXiv.2503.04696](https://doi.org/10.48550/arXiv.2503.04696). [Texto integral](https://arxiv.org/abs/2503.04696). Apoia a necessidade de registrar práticas, benefícios, riscos e preocupações éticas dos estudantes.
 
-- TANENBAUM, A. S. **Organização estruturada de computadores**. LTC, 2001.
-- STALLINGS, W. **Arquitetura e organização de computadores**. Prentice-Hall, 2005.
-- TANENBAUM, A. S.; WOODHULL, A. **Sistemas operacionais: projeto e implementação**. Bookman, 2008.
-- KUROSE, J. F.; ROSS, K. W. **Redes de computadores e a Internet: uma abordagem Top-Down**. Addison-Wesley, 2014.
-- COMER, D. E. **Interligação de redes com TCP/IP**. Campus, 2016.
-- TANENBAUM, A. S. **Redes de computadores**. Campus, 2011.
+[^9]: OVI, Jesan Ahammed et al. **Generative artificial intelligence in education: student skills and lecturer roles**. arXiv, 2025. DOI: [10.48550/arXiv.2504.19673](https://doi.org/10.48550/arXiv.2504.19673). [Texto integral](https://arxiv.org/abs/2504.19673). Apoia alfabetização em IA, consciência de vieses e gestão crítica das respostas.
 
-### Métodos ágeis e projeto
+[^10]: AYANWALE, Musa Adekunle; OMEH, Christian Basil. **AI-supported problem-based learning for enhancing computational thinking skills in STEM education**. *Computers in Human Behavior: Artificial Humans*, 2026, art. 100263. DOI: [10.1016/j.chbah.2026.100263](https://doi.org/10.1016/j.chbah.2026.100263). Texto integral em acesso aberto. Relaciona IA, aprendizagem baseada em problemas e pensamento computacional.
 
-- GOMES, A. F. **Agile: desenvolvimento de software com entregas frequentes e foco no valor de negócio**. Casa do Código, 2014.
-- PRIKLADNICKI, R.; WILLI, R.; MILANI, F. **Métodos ágeis para desenvolvimento de software**. Bookman, 2014.
-- SABBAGH, R. **Scrum: gestão ágil para projetos de sucesso**. Casa do Código, 2014.
-- TELES, V. M. **Extreme Programming: aprenda a desenvolver software com alta qualidade**. Novatec.
-- AUDY, J. **Scrum 360: gestão ágil para projetos de sucesso**.
+[^11]: PAWAR, Varsha S.; DESAI, G. T.; BOROTIKAR, M. **Evaluating the impact of a project-based learning framework on overall skill development**. *Frontiers in Education*, v. 11, art. 1780665, 2026. DOI: [10.3389/feduc.2026.1780665](https://doi.org/10.3389/feduc.2026.1780665). Texto integral em acesso aberto. Apoia rubricas, competências e engajamento.
 
-### Interfaces, web e dispositivos móveis
+[^12]: DZIALLAS, Sebastian; BARR, Matthew. **A longitudinal study of students in a work-based learning program**. In: *Proceedings of the 31st ACM Conference on Innovation and Technology in Computer Science Education*, 2026, p. 709–715. DOI: [10.1145/3803400.3809320](https://doi.org/10.1145/3803400.3809320). Texto integral em acesso aberto. Relaciona aprendizagem baseada no trabalho, experiência prática e desenvolvimento profissional.
 
-- ALVES, A. C. **Lógica: pensamento formal e argumentação**. Quartier Latin, 2011.
-- LAWSON, B. **Introdução ao HTML5**. Alta Books, 2011.
-- TERUEL, E. C. **HTML5**. Érica, 2012.
-- SILVA, M. S. **HTML5, CSS3, AJAX, jQuery e jQuery UI**. Novatec, 2012.
-- NAKAMURA, E. Y.; FREITAS, L. G. S. **Programação para dispositivos móveis: Android**. Novatec, 2015.
-- DEITEL, P.; DEITEL, H.; MORGAN, C. **Android: como programar**. Pearson, 2015.
-- SILVA, L. G. B. **Desenvolvimento de aplicativos para iOS**. Novatec, 2016.
+[^13]: SULEIMAN, Ahmad D. et al. **Adoption-ready project-based learning for computing education: the FORAP framework and a multi-scale project portfolio**. arXiv, 2026. DOI: [10.48550/arXiv.2607.11129](https://doi.org/10.48550/arXiv.2607.11129). [Texto integral](https://arxiv.org/abs/2607.11129). Apoia projetos reutilizáveis, materiais para professor e estudante e portfólios em diferentes escalas.
 
-### Testes, segurança e qualidade
+[^14]: ZHAO, H.; LI, P. P. **Exploration and reflection on project-driven teaching in computer science practical courses**. *Advanced Electromagnetics*, v. 15, n. 3, 2026. DOI: [10.7716/aem.v15i3.3843](https://doi.org/10.7716/aem.v15i3.3843). Texto integral consultável na página do periódico. Relaciona programação, bancos de dados, testes, colaboração e tarefas de engenharia.
 
-- CARUSO, C. A. A.; STEFFEN, F. D. **Segurança em informática e de informações**. Senac, 1999.
-- RUFINO, N. M. O. **Segurança em redes sem fio**. Novatec, 2005.
-- ABNT. **NBR ISO/IEC 27001: Tecnologia da informação — Técnicas de segurança — Sistemas de gestão de segurança da informação — Requisitos**.
-- RIOS, R. S. H. **Projeto de sistemas Web orientados a interface**. Campus, 2003.
-- DENNIS, A.; WIXOM, B. H.; ROTH, R. M. **Análise e projeto de sistemas**. Campus, 2003.
-- WAZLAWICK, R. S. **Análise e projeto de sistemas de informação orientados a objetos**. Elsevier, 2011.
+## Referência institucional da ementa
 
-### Inteligência artificial, dados e IoT
-
-- RUSSELL, S.; NORVIG, P. **Inteligência Artificial**. Campus, 2003.
-- ROSA, J. L. G. **Fundamentos da Inteligência Artificial**. LTC, 2011.
-- LUGER, G. F. **Artificial Intelligence: Structures and Strategies for Complex Problem Solving**. Addison-Wesley, 2008.
-- BISHOP, C. M. **Pattern Recognition and Machine Learning**. Springer, 2006.
-- FACELI, K. et al. **Inteligência Artificial: uma abordagem de aprendizado de máquina**. LTC, 2011.
-- OLIVEIRA, S. **Internet das Coisas com ESP8266, Arduino e Raspberry Pi**. 2017.
-- BUYya, R.; VAHID DASTJERDI, A. **Internet of Things: Principles and Paradigms**. Elsevier, 2016.
-- ROSE, K.; ELDRIDGE, S.; CHAPIN, L. **The Internet of Things: an overview**. 2015.
-
-### Ética, cidadania e empreendedorismo
-
-- KENSKI, V. M. **Educação e tecnologias: o novo ritmo da informação**. Papirus, 2012.
-- MORAN, J. M. **Metodologias ativas para uma educação inovadora**. Papirus, 2015.
-- BACICH, L.; MORAN, J. **Metodologias ativas para uma educação inovadora: uma abordagem teórico-prática**. Penso, 2018.
-- Mészáros, I. **A educação para além do capital**. Boitempo, 2008.
-- DORNELAS, J. C. A. **Empreendedorismo: transformando ideias em negócios**. Campus, 2001.
-- FERRARI, R. **Empreendedorismo para computação: criando negócios de tecnologia**. Campus, 2010.
-
-## Princípio da organização
+PIAUÍ. **Currículo 2024: ementa das unidades curriculares — curso técnico em Desenvolvimento de Sistemas — 1ª, 2ª e 3ª séries, integral**. Documento fornecido para esta organização. A ementa orienta a articulação entre programação, bancos de dados, redes, métodos ágeis, dispositivos móveis, manutenção, testes, segurança, IA, IoT, empreendedorismo e projeto integrador.
 
 > Um projeto escolar deve mostrar não somente o que foi construído, mas como o estudante pensou, colaborou, testou, revisou e aprendeu.
