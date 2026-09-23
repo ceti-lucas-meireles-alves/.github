@@ -1,70 +1,44 @@
 # CETI Lucas Meireles Alves
 
-## Índice institucional de projetos
+## Repositório de projetos da turma 2026
 
 **Organização:** `ceti-lucas-meireles-alves`  
 **Escola:** CETI Lucas Meireles Alves  
-**Curso:** Técnico em Análise e Desenvolvimento de Sistemas  
-**Turma:** única turma de 2026
+**Curso:** Técnico em Análise e Desenvolvimento de Sistemas
 
-Esta página é o índice público da organização. Ela reúne os documentos, padrões e modelos usados para acompanhar os projetos dos estudantes e pode ser utilizada como página inicial de referência para a documentação da organização.
+Esta organização acompanha projetos dos alunos com foco em aprendizagem, colaboração, documentação e portfólio. Cada repositório deve tornar observável a evolução da ideia até a entrega: problema, requisitos, planejamento, código, testes, revisão, aprendizado e próximos passos.
 
-## Navegação rápida
+## Índice
 
-- [Repositório de padrões `.github`](https://github.com/ceti-lucas-meireles-alves/.github)
-- [README e índice de arquivos](https://github.com/ceti-lucas-meireles-alves/.github/blob/main/README.md)
+- [Manual completo da organização](https://github.com/ceti-lucas-meireles-alves/.github/blob/main/README.md)
 - [Projetos da organização](https://github.com/orgs/ceti-lucas-meireles-alves/repositories)
-- [Equipe `alunos-2026`](https://github.com/orgs/ceti-lucas-meireles-alves/teams/alunos-2026)
+- [Equipe alunos-2026](https://github.com/orgs/ceti-lucas-meireles-alves/teams/alunos-2026)
 
-## Índice de documentos
+## Como um projeto é acompanhado
 
-### Identidade e orientação
+| Etapa | Evidência esperada |
+| --- | --- |
+| Investigar | Problema, público e contexto |
+| Planejar | Requisitos, tarefas, riscos e critérios |
+| Modelar | Fluxos, dados, arquitetura e interface |
+| Construir | Branches, commits e incrementos |
+| Testar | Casos, resultados, segurança e acessibilidade |
+| Revisar | Pull Request e feedback |
+| Entregar | README, release e demonstração |
+| Refletir | Aprendizados e próximos passos |
 
-- [`README.md`](https://github.com/ceti-lucas-meireles-alves/.github/blob/main/README.md) — apresentação do repositório institucional e índice dos arquivos.
-- [`profile/README.md`](https://github.com/ceti-lucas-meireles-alves/.github/blob/main/profile/README.md) — esta página inicial e índice público da organização.
-- [`LICENSE`](https://github.com/ceti-lucas-meireles-alves/.github/blob/main/LICENSE) — termos de licenciamento.
+## Competências em ação
 
-### Governança e convivência
+Os projetos podem articular lógica e programação, bancos de dados, redes, desenvolvimento web e mobile, métodos ágeis, UX, testes, manutenção, segurança, inteligência artificial, ciência de dados, IoT, ética e empreendedorismo.
 
-- [`CODE_OF_CONDUCT.md`](https://github.com/ceti-lucas-meireles-alves/.github/blob/main/CODE_OF_CONDUCT.md) — regras de respeito, colaboração, segurança e convivência.
-- [`CONTRIBUTING.md`](https://github.com/ceti-lucas-meireles-alves/.github/blob/main/CONTRIBUTING.md) — fluxo de contribuição, commits, testes, documentação e uso de IA.
+Esse modelo segue a Ementa do Curso Técnico em Desenvolvimento de Sistemas e o Currículo de Computação do Estado do Piauí, que valorizam pensamento computacional, resolução criativa de problemas, cidadania digital, projetos colaborativos e responsabilidade social.
 
-### Modelos de colaboração
+## Uso de IA e privacidade
 
-- [`PULL_REQUEST_TEMPLATE.md`](https://github.com/ceti-lucas-meireles-alves/.github/blob/main/PULL_REQUEST_TEMPLATE.md) — checklist de revisão, testes, documentação, privacidade e segurança.
-- [`feature_request.md`](https://github.com/ceti-lucas-meireles-alves/.github/blob/main/ISSUE_TEMPLATE/feature_request.md) — proposta de funcionalidade ou melhoria.
-- [`bug_report.md`](https://github.com/ceti-lucas-meireles-alves/.github/blob/main/ISSUE_TEMPLATE/bug_report.md) — registro de erro ou comportamento inesperado.
-- [`learning_record.md`](https://github.com/ceti-lucas-meireles-alves/.github/blob/main/ISSUE_TEMPLATE/learning_record.md) — registro de descobertas, decisões e aprendizagem.
+A IA pode apoiar pesquisa, explicação, testes e revisão, mas o aluno deve compreender e validar o resultado. O uso relevante deve ser registrado no projeto. Nunca publicar credenciais, documentos, telefones, endereços, dados sensíveis ou informações sigilosas.
 
-## Como usar este índice
+## Referências
 
-1. Consulte o README do projeto do aluno.
-2. Leia o guia de contribuição antes de alterar código.
-3. Registre tarefas, problemas e aprendizados usando os templates.
-4. Desenvolva em branch e abra um Pull Request.
-5. Faça a revisão usando o checklist institucional.
-6. Documente a entrega e vincule o projeto ao portfólio do estudante, quando autorizado.
-
-## Modelo pedagógico
-
-Os projetos integram pensamento computacional, resolução de problemas, programação, desenvolvimento web e mobile, bancos de dados, redes, métodos ágeis, UX, testes, segurança, inteligência artificial, ciência de dados, IoT, ética e empreendedorismo.
-
-O acompanhamento considera planejamento, aplicação técnica, colaboração, comunicação, testes, documentação, acessibilidade, segurança e capacidade de explicar decisões.
-
-## Uso de inteligência artificial
-
-A IA pode apoiar pesquisa, explicação, testes e revisão. O estudante continua responsável por compreender, validar e explicar o código. O uso relevante deve ser registrado no Pull Request.
-
-Nunca compartilhe com ferramentas de IA credenciais, tokens, documentos pessoais, dados de estudantes ou informações sigilosas da escola.
-
-## Privacidade e portfólio
-
-Repositórios públicos devem conter somente informações autorizadas. Não publique telefone, endereço, documentos, credenciais ou outros dados sensíveis.
-
-Quando autorizado, cada estudante pode usar o projeto como portfólio, demonstrando participação por meio de commits, Issues, Pull Requests, documentação e releases.
-
-<div align="center">
+As referências curriculares e bibliográficas completas — incluindo BNCC, Currículo de Computação do Piauí, lógica, bancos de dados, redes, métodos ágeis, testes, segurança, IA, IoT e metodologias ativas — estão no [Manual da organização](https://github.com/ceti-lucas-meireles-alves/.github/blob/main/README.md).
 
 ### Aprender · construir · documentar · compartilhar
-
-</div>
