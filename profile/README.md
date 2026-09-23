@@ -1,51 +1,70 @@
-# Projetos da turma 2026
+# CETI Lucas Meireles Alves
+
+## Índice institucional de projetos
 
 **Organização:** `ceti-lucas-meireles-alves`  
 **Escola:** CETI Lucas Meireles Alves  
-**Curso:** Técnico em Análise e Desenvolvimento de Sistemas
+**Curso:** Técnico em Análise e Desenvolvimento de Sistemas  
+**Turma:** única turma de 2026
 
-## Sobre esta organização
+Esta página é o índice público da organização. Ela reúne os documentos, padrões e modelos usados para acompanhar os projetos dos estudantes e pode ser utilizada como página inicial de referência para a documentação da organização.
 
-Este espaço reúne os projetos desenvolvidos pela turma única de 2026. Seu objetivo é documentar o processo de aprendizagem, acompanhar a evolução dos estudantes e apoiar a construção de portfólios com evidências reais de participação.
+## Navegação rápida
 
-## Foco formativo
+- [Repositório de padrões `.github`](https://github.com/ceti-lucas-meireles-alves/.github)
+- [README e índice de arquivos](https://github.com/ceti-lucas-meireles-alves/.github/blob/main/README.md)
+- [Projetos da organização](https://github.com/orgs/ceti-lucas-meireles-alves/repositories)
+- [Equipe `alunos-2026`](https://github.com/orgs/ceti-lucas-meireles-alves/teams/alunos-2026)
 
-Os projetos integram pensamento computacional, resolução de problemas, criatividade, colaboração, comunicação e cidadania digital, com aplicação prática em:
+## Índice de documentos
 
-- lógica, algoritmos e programação;
-- desenvolvimento web e mobile;
-- modelagem e bancos de dados;
-- redes e infraestrutura;
-- métodos ágeis e gestão de projetos;
-- interfaces e experiência do usuário;
-- testes, manutenção, qualidade e segurança;
-- inteligência artificial, ciência de dados e IoT;
-- ética, empreendedorismo e orientação profissional.
+### Identidade e orientação
 
-## Como trabalhamos
+- [`README.md`](https://github.com/ceti-lucas-meireles-alves/.github/blob/main/README.md) — apresentação do repositório institucional e índice dos arquivos.
+- [`profile/README.md`](https://github.com/ceti-lucas-meireles-alves/.github/blob/main/profile/README.md) — esta página inicial e índice público da organização.
+- [`LICENSE`](https://github.com/ceti-lucas-meireles-alves/.github/blob/main/LICENSE) — termos de licenciamento.
 
-Cada projeto pode utilizar Issues para requisitos e tarefas, Projects para o planejamento, branches para desenvolvimento, Pull Requests para revisão e releases para registrar entregas.
+### Governança e convivência
 
-O acompanhamento considera a compreensão do problema, o planejamento, a aplicação técnica, a colaboração, os testes, a documentação, a acessibilidade, a segurança e a capacidade de explicar as decisões.
+- [`CODE_OF_CONDUCT.md`](https://github.com/ceti-lucas-meireles-alves/.github/blob/main/CODE_OF_CONDUCT.md) — regras de respeito, colaboração, segurança e convivência.
+- [`CONTRIBUTING.md`](https://github.com/ceti-lucas-meireles-alves/.github/blob/main/CONTRIBUTING.md) — fluxo de contribuição, commits, testes, documentação e uso de IA.
 
-## Padrões para os repositórios
+### Modelos de colaboração
 
-Os projetos devem conter, quando aplicável:
+- [`PULL_REQUEST_TEMPLATE.md`](https://github.com/ceti-lucas-meireles-alves/.github/blob/main/PULL_REQUEST_TEMPLATE.md) — checklist de revisão, testes, documentação, privacidade e segurança.
+- [`feature_request.md`](https://github.com/ceti-lucas-meireles-alves/.github/blob/main/ISSUE_TEMPLATE/feature_request.md) — proposta de funcionalidade ou melhoria.
+- [`bug_report.md`](https://github.com/ceti-lucas-meireles-alves/.github/blob/main/ISSUE_TEMPLATE/bug_report.md) — registro de erro ou comportamento inesperado.
+- [`learning_record.md`](https://github.com/ceti-lucas-meireles-alves/.github/blob/main/ISSUE_TEMPLATE/learning_record.md) — registro de descobertas, decisões e aprendizagem.
 
-- README com contexto, objetivos, equipe, tecnologias e execução;
-- documentação de requisitos e arquitetura;
-- código organizado e testes;
-- registro de decisões e evolução;
-- informações sobre limitações e próximos passos.
+## Como usar este índice
 
-Os padrões reutilizáveis estão disponíveis em [CONTRIBUTING.md](https://github.com/ceti-lucas-meireles-alves/.github/blob/main/CONTRIBUTING.md), no [Código de Conduta](https://github.com/ceti-lucas-meireles-alves/.github/blob/main/CODE_OF_CONDUCT.md) e nos templates de Issues e Pull Requests.
+1. Consulte o README do projeto do aluno.
+2. Leia o guia de contribuição antes de alterar código.
+3. Registre tarefas, problemas e aprendizados usando os templates.
+4. Desenvolva em branch e abra um Pull Request.
+5. Faça a revisão usando o checklist institucional.
+6. Documente a entrega e vincule o projeto ao portfólio do estudante, quando autorizado.
+
+## Modelo pedagógico
+
+Os projetos integram pensamento computacional, resolução de problemas, programação, desenvolvimento web e mobile, bancos de dados, redes, métodos ágeis, UX, testes, segurança, inteligência artificial, ciência de dados, IoT, ética e empreendedorismo.
+
+O acompanhamento considera planejamento, aplicação técnica, colaboração, comunicação, testes, documentação, acessibilidade, segurança e capacidade de explicar decisões.
 
 ## Uso de inteligência artificial
 
-A IA pode apoiar pesquisa, explicação, testes e revisão. O estudante continua responsável por compreender, validar e explicar o código. Uso relevante de IA deve ser registrado no Pull Request, sem compartilhar credenciais, dados pessoais ou informações sigilosas.
+A IA pode apoiar pesquisa, explicação, testes e revisão. O estudante continua responsável por compreender, validar e explicar o código. O uso relevante deve ser registrado no Pull Request.
+
+Nunca compartilhe com ferramentas de IA credenciais, tokens, documentos pessoais, dados de estudantes ou informações sigilosas da escola.
 
 ## Privacidade e portfólio
 
-Repositórios públicos devem conter apenas informações autorizadas. Não publique documentos pessoais, telefones, endereços, credenciais, chaves de API ou dados sensíveis de estudantes e da escola.
+Repositórios públicos devem conter somente informações autorizadas. Não publique telefone, endereço, documentos, credenciais ou outros dados sensíveis.
 
-Quando autorizado, o estudante pode vincular o projeto ao seu perfil pessoal e demonstrar sua participação por meio de commits, Issues, Pull Requests, documentação e releases.
+Quando autorizado, cada estudante pode usar o projeto como portfólio, demonstrando participação por meio de commits, Issues, Pull Requests, documentação e releases.
+
+<div align="center">
+
+### Aprender · construir · documentar · compartilhar
+
+</div>
