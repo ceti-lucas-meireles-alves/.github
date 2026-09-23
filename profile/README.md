@@ -1,5 +1,8 @@
 # CETI Lucas Meireles Alves
 
+**Organização:** `ceti-lucas-meireles-alves`  
+**Nome da escola:** CETI Lucas Meireles Alves
+
 ## Curso Técnico em Desenvolvimento de Sistemas · Turma 2026
 
 Esta organização reúne os projetos da turma única de 2026 do curso técnico em Desenvolvimento de Sistemas do CETI Lucas Meireles Alves, escola pública da rede estadual do Piauí.
